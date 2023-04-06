@@ -373,7 +373,7 @@ exe "hi! Statement"       .s:fg_blue        .s:bg_none        .s:fg_bold
 "   Conditional"
 "   Repeat"
 "   Label"
-exe "hi! Operator"        .s:fg_aqua        .s:bg_none        .s:fmt_none
+exe "hi! Operator"        .s:fg_red        .s:bg_none        .s:fmt_none
 "   Keyword"
 "   Exception"
 
@@ -405,10 +405,10 @@ exe "hi! Todo"            .s:fg_addfg       .s:bg_none        .s:fg_bold
 
 " taghighlight groups color defs
 exe "hi! GlobalVariable"  .s:fg_blue        .s:bg_none        .s:fg_bold
-exe "hi! DefinedName"     .s:fg_purple      .s:bg_none        .s:fg_bold
+exe "hi! DefinedName"     .s:fg_aqua      .s:bg_none        .s:fg_bold
 " #define DefinedName
 
-exe "hi! EnumerationValue" .s:fg_purple     .s:bg_none        .s:fg_bold
+exe "hi! EnumerationValue" .s:fg_aqua     .s:bg_none        .s:fmt_none
 exe "hi! Member"           .s:fg_blue       .s:bg_none        .s:fmt_none
 " LocalVariable #doesn't work
 " Class
