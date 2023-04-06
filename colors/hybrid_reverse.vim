@@ -403,6 +403,24 @@ exe "hi! Error"           .s:fg_red         .s:bg_none        .s:fmt_none
 
 exe "hi! Todo"            .s:fg_addfg       .s:bg_none        .s:fg_bold
 
+" taghighlight groups color defs
+exe "hi! GlobalVariable"  .s:fg_blue        .s:bg_none        .s:fg_bold
+exe "hi! DefinedName"     .s:fg_purple      .s:bg_none        .s:fg_bold
+" #define DefinedName
+
+exe "hi! EnumerationValue" .s:fg_purple     .s:bg_none        .s:fg_bold
+exe "hi! Member"           .s:fg_blue       .s:bg_none        .s:fmt_none
+" LocalVariable #doesn't work
+" Class
+" EnumeratorName
+" Namespace
+exe "hi! Structure"       .s:fg_blue        .s:bg_none        .s:fg_bold
+" exe "hi! Union"           .s:fg_green       .s:bg_none        .s:fmt_none
+" exe "hi! Extern"          .s:fg_aqua        .s:bg_none        .s:fmt_none
+" File
+
+
+
 " Quickfix window highlighting
 exe "hi! qfLineNr"        .s:fg_yellow      .s:bg_none        .s:fmt_none
 "   qfFileName"
