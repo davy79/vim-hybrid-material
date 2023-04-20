@@ -369,7 +369,7 @@ exe "hi! String"          .s:fg_green       .s:bg_none        .s:fmt_none
 exe "hi! Identifier"      .s:fg_red          .s:bg_none       .s:fmt_none
 exe "hi! Function"        .s:fg_yellow      .s:bg_none        .s:fg_bold
 
-exe "hi! Statement"       .s:fg_blue        .s:bg_none        .s:fg_bold
+exe "hi! Statement"       .s:fg_aqua        .s:bg_none        .s:fg_bold
 "   Conditional"
 "   Repeat"
 "   Label"
@@ -405,11 +405,11 @@ exe "hi! Todo"            .s:fg_addfg       .s:bg_none        .s:fg_bold
 
 " taghighlight groups color defs
 exe "hi! GlobalVariable"  .s:fg_blue        .s:bg_none        .s:fg_bold
-exe "hi! DefinedName"     .s:fg_aqua      .s:bg_none        .s:fg_bold
+exe "hi! DefinedName"     .s:fg_purple      .s:bg_none        .s:fg_bold
 " #define DefinedName
 
-exe "hi! EnumerationValue" .s:fg_aqua     .s:bg_none        .s:fmt_none
-exe "hi! Member"           .s:fg_blue       .s:bg_none        .s:fmt_none
+exe "hi! EnumerationValue" .s:fg_purple     .s:bg_none        .s:fg_italic
+exe "hi! Member"           .s:fg_blue       .s:bg_none        .s:fg_italic
 " LocalVariable #doesn't work
 " Class
 " EnumeratorName
